@@ -1,0 +1,19 @@
+{
+  "name": "pinia-store",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "test:unit": "vitest",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "tsconfig": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitest/ui": "1.6.0",
+    "jsdom": "24.0.0",
+    "vitest": "1.6.0"
+  }
+}

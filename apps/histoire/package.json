@@ -1,0 +1,31 @@
+{
+  "name": "histoire-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "histoire dev --port 6007",
+    "build": "histoire build",
+    "start": "histoire preview --port 6007",
+    "lint": "eslint .",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "vue": "3.4.27"
+  },
+  "devDependencies": {
+    "@histoire/plugin-vue": "0.17.17",
+    "@unocss/reset": "0.60.3",
+    "@vitejs/plugin-vue": "5.0.4",
+    "css-preset": "workspace:*",
+    "histoire": "0.17.17",
+    "tsconfig": "workspace:*",
+    "typescript": "5.4.5",
+    "ui": "workspace:*",
+    "unocss": "0.60.3",
+    "vite": "5.2.11"
+  }
+}
